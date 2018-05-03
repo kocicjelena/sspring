@@ -1,1 +1,1 @@
-# My archy pom for spring, package .jar
+mvn install:install-file -DgroupId=com.example.flex.gettingstarted -DartifactId=as -Dversion=as-0.0.1-SNAPSHOT -Dfile=my-archetype-id-1.0-SNAPSHOT.jar -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=.  -DcreateChecksum=true
